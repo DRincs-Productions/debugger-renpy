@@ -46,26 +46,25 @@ And Play!
 
 ## Possible problems
 
-
-when opening the text with error info via terminal, write:
-
-```bash
-:q
-
-```
-
-
-if this:
+### A strange error screen opens (tiny file dialogs)
 
 ![image](https://user-images.githubusercontent.com/67595890/181924847-19e28398-259a-4ca0-831a-da72410e4612.png)
 
+This happens when renpy tries to open the error file and the operating system does not have a program capable of opening a txt from the terminal.
 
-them:
+The solution is to install a program to open these files. For example yad
 
 ```bash
 sudo apt-get install -y yad
 
 ```
+
+### After an error CTRL+C doesn't work
+
+This happens in case the error log is opened for editing with VIM.
+
+
+In this case you must write the following sequence of characters to close the file: `:q`
 
 
 ## Linux commands
