@@ -1,4 +1,4 @@
-# Debugging Ren'py with PowerShell for Visual Studio Code
+# Debugger Ren'py with PowerShell for Visual Studio Code
 
 This template includes VSCode launchs for developing Ren'Py projects.
 
