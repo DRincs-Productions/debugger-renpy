@@ -15,7 +15,7 @@ Itch.io Page: https://drincs-productions.itch.io/debugger-renpy
 ## Install
 * [Install PowerShell on Windows, Linux, and macOS](https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell?view=powershell-7.4)
 * [Install PowerShell Extension for VS Code](https://marketplace.visualstudio.com/items?itemName=ms-vscode.PowerShell)
-* Download [Ren'Py SDK](https://www.renpy.org/) and extract into the folder
+* Download [Ren'Py SDK](https://www.renpy.org/) and extract into a folder
 * Add files into your project
 
 ## How Run Debug
