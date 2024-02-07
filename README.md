@@ -29,8 +29,9 @@ In any case, if you have never used VS Code Debugging I recommend you read first
 
 ( **Necessary only in the beginning** )
 
-Paste the path to your Ren'Py SDK folder
+It will create the .renpy-sdk file in which the path to your Ren'Py SDK folder is written.
 
+After you launch it, paste the path to your Ren'Py SDK folder
 Exemple: `/home/username/renpy`
 
 ### Run
@@ -42,9 +43,25 @@ Select:
 
 And Play!
 
-#### For Linux first:
+## Linux commands
 
-Installing PowerShell on Ubuntu
+### Give renpy permission
+
+Almost certainly when you start debugging for the first time, it will give you an error because some files do not have "authorization" to be executed.
+
+To fix this you need to run the following commands in the Renpy SDK folder
+
+```bash
+chmod +x renpy.sh
+chmod +x renpy.py
+chmod +x renpy.exe
+chmod +x lib/py3-linux-x86_64/renpy
+chmod +x lib/py3-linux-x86_64/pythonw
+sudo apt-get install -y xdg-utils
+
+```
+
+### Installing PowerShell on Ubuntu
 https://learn.microsoft.com/en-us/powershell/scripting/install/install-ubuntu?view=powershell-7.3
 ```bash
 # Update the list of packages
@@ -61,16 +78,6 @@ sudo apt-get update
 sudo apt-get install -y powershell
 ```
 
-give renpy permission
-```bash
-chmod +x renpy.sh
-chmod +x renpy.py
-chmod +x renpy.exe
-chmod +x lib/py3-linux-x86_64/renpy
-chmod +x lib/py3-linux-x86_64/pythonw
-sudo apt-get install -y xdg-utils
-
-```
 
 when opening the text with error info via terminal, write:
 
