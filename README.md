@@ -43,6 +43,31 @@ Select:
 
 And Play!
 
+
+## Possible problems
+
+
+when opening the text with error info via terminal, write:
+
+```bash
+:q
+
+```
+
+
+if this:
+
+![image](https://user-images.githubusercontent.com/67595890/181924847-19e28398-259a-4ca0-831a-da72410e4612.png)
+
+
+them:
+
+```bash
+sudo apt-get install -y yad
+
+```
+
+
 ## Linux commands
 
 ### Give renpy permission
@@ -78,28 +103,7 @@ sudo apt-get update
 sudo apt-get install -y powershell
 ```
 
-
-when opening the text with error info via terminal, write:
-
-```bash
-:q
-
-```
-
-
-if this:
-
-![image](https://user-images.githubusercontent.com/67595890/181924847-19e28398-259a-4ca0-831a-da72410e4612.png)
-
-
-them:
-
-```bash
-sudo apt-get install -y yad
-
-```
-
-#### For microsoft wsl
+## For microsoft wsl
 https://docs.microsoft.com/it-it/windows/wsl/tutorials/gui-apps
 
 
