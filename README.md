@@ -2,6 +2,8 @@
 
 This template includes VSCode launchs for developing Ren'Py projects.
 
+Itch.io Page: https://drincs-productions.itch.io/debugging-renpy
+
 **What can be done**:
 * Add `$ print("...")` to display them in the vscode terminal while the app is running
 * Don't have to open Ren'py SDK every time
