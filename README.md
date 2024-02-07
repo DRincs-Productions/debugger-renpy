@@ -2,6 +2,14 @@
 
 This template includes VSCode launchs for developing Ren'Py projects.
 
+**What can be done**:
+* Add `$ print("...")` to display them in the vscode terminal while the app is running.
+* Don't have to open Ren'py SDK every time
+* Close the game with CTRL+C in the terminal or when closing VSCode
+
+**What cannot be done**:
+* Insert breakpoint
+
 ## How Run Debug (F5)
 
 ![image](https://user-images.githubusercontent.com/67595890/179401467-c8abbc9b-8970-4bad-af86-2b5b31c173a4.png)
