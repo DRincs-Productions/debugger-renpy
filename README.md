@@ -1,4 +1,4 @@
-# Debugging Ren'py with PowerShell for VSCode
+# Debugging Ren'py with PowerShell for Visual Studio Code
 
 This template includes VSCode launchs for developing Ren'Py projects.
 
@@ -10,10 +10,19 @@ This template includes VSCode launchs for developing Ren'Py projects.
 **What cannot be done**:
 * Insert breakpoint
 
-## How Run Debug (F5)
+## Install
+* [Install PowerShell on Windows, Linux, and macOS](https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell?view=powershell-7.4)
+* [Install PowerShell Extension for VS Code](https://marketplace.visualstudio.com/items?itemName=ms-vscode.PowerShell)
+* Add files into your project
+
+## How Run Debug
+As shown in the image there are several launches that are added
+
 
 ![image](https://user-images.githubusercontent.com/67595890/179401467-c8abbc9b-8970-4bad-af86-2b5b31c173a4.png)
 
+
+In any case, if you have never used VS Code Debugging I recommend you read first: [Debugging](https://code.visualstudio.com/docs/editor/debugging)
 
 ### Setup
 
