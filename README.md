@@ -104,10 +104,9 @@ https://docs.microsoft.com/it-it/windows/wsl/tutorials/gui-apps
 
 
 
-## File
+## Files
 
-- `bin/renpy`: macOS/linux script for calling Ren'Py SDK `renpy.sh`
-- `bin/renpy.ps1`: Windows script for calling Ren'Py SDK `renpy.exe`
+- `bin/renpy.ps1`: Script for calling Ren'Py SDK
 - `bin/set-origin.sh`: Git setup helper to configure your local folder to sync to a remote host
 - `.vscode/launch.json`: Launch for launching Ren'Py SDK commands without opening the Ren'Py launcher.
   - Setup (custom file for remembering your project's SDK path for commands to work)
@@ -116,13 +115,3 @@ https://docs.microsoft.com/it-it/windows/wsl/tutorials/gui-apps
   - Delete Persistent
   - Lint
   - Distribute
-- `.vscode/extensions.json`: Optional extensions that VSCode will offer to install for you
-- `.vscode/settings.json`: For Test Formatting, and other settings
-  - [Ren'Py Language](https://marketplace.visualstudio.com/items?itemName=LuqueDaniel.languague-renpy) for syntax highlighting
-  - [Power Shell](https://marketplace.visualstudio.com/items?itemName=ms-vscode.PowerShell) for an easy clickable list of launchs from `.vscode/launch.json`
-  - [Python](https://marketplace.visualstudio.com/items?itemName=spmeesseman.vscode-taskexplorer) for python syntax highlighting
-- `.gitignore`: Git configuration file for ignoring certain file paths and types.
-- `/game/tool/utility.rpy`: Useful functions such as: isNullOrEmpty 
-- `/game/tool/flags.rpy`: Flags System
-- `/game/tool/notify.rpy`: Notify System
-- `/game/tool/log_system.rpy`: Log System
