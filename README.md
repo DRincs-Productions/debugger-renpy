@@ -1,1 +1,1 @@
-# Debugging-Ren-py-with-PowerShell-for-VSCode
+# Debugging Ren'py with PowerShell for VSCode
