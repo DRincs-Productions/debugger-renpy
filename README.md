@@ -102,8 +102,12 @@ sudo apt-get update
 sudo apt-get install -y powershell
 ```
 
-## For microsoft wsl
-https://docs.microsoft.com/it-it/windows/wsl/tutorials/gui-apps
+## Use microsoft wsl
+
+You can also debug on WSL.
+
+
+But there might be some problems while opening the GUI of WSL. It depends on the compatibility with your graphics card. Read: https://docs.microsoft.com/it-it/windows/wsl/tutorials/gui-apps
 
 
 
